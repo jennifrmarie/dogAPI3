@@ -9,7 +9,7 @@ function getDogImage() {
             <img src='${dogArr}' width="300px" height="300px">`)
             console.log(res);
     })
-    .catch((error) => console.log(error));
+    .catch((error) => console.log(`I'm sorry, I couldn't find a dog that looks like that`));
 }
 
 
